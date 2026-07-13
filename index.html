@@ -1,11 +1,15 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
+
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 <title>PalEntropía</title>
 
 <style>
+
 body{
     margin:0;
     font-family:Arial, Helvetica, sans-serif;
@@ -16,24 +20,45 @@ body{
 
 header{
     background:linear-gradient(90deg,#6a0dad,#a020f0);
-    padding:30px;
+    padding:35px 20px;
 }
 
-h1{
+header h1{
     margin:0;
-    font-size:42px;
+    font-size:44px;
 }
 
-p{
-    font-size:18px;
+header p{
+    margin-top:10px;
+    font-size:20px;
+    color:#ddd;
 }
 
 .card{
-    max-width:700px;
-    margin:40px auto;
+    display:inline-block;
+    width:300px;
+    margin:25px;
+    padding:20px;
     background:#222;
     border-radius:20px;
-    padding:25px;
+    box-shadow:0 0 15px rgba(184,76,255,.35);
+    vertical-align:top;
+}
+
+.card img{
+    width:100%;
+    border-radius:12px;
+    margin-bottom:15px;
+}
+
+.card h2{
+    margin-top:0;
+    color:white;
+}
+
+.card p{
+    color:#ddd;
+    min-height:50px;
 }
 
 button{
@@ -44,11 +69,19 @@ button{
     font-size:18px;
     border-radius:12px;
     cursor:pointer;
+    transition:.3s;
 }
 
 button:hover{
-    background:#b44cff;
+    background:#b84cff;
 }
+
+footer{
+    margin:60px 20px 30px;
+    color:#888;
+    font-size:14px;
+}
+
 </style>
 
 </head>
@@ -56,21 +89,62 @@ button:hover{
 <body>
 
 <header>
+
 <h1>🦖 PalEntropía</h1>
+
 <p>Repositorio Oficial de Paleofichas</p>
+
 </header>
+
+
+<!-- GASTORNIS -->
 
 <div class="card">
 
-<h2>Gastornis</h2>
+<img src="animales/Gastornis/Gastornis_i0.png" alt="Gastornis">
 
-<p>Ave gigante del Eoceno temprano.</p>
+<h2>🦤 Gastornis</h2>
 
-<a href="animales/gastornis/index.html">
-    <button>Ver Paleoficha</button>
+<p>Ave gigante del Paleógeno.</p>
+
+<a href="animales/Gastornis/index.html">
+
+<button>Ver Paleoficha</button>
+
 </a>
 
 </div>
 
+
+<!-- GONIATITES -->
+
+<div class="card">
+
+<img src="animales/Goniatites/Goniatites_i0.png" alt="Goniatites">
+
+<h2>🦑 Goniatites</h2>
+
+<p>Cefalópodo marino del Carbonífero superior.</p>
+
+<a href="animales/Goniatites/index.html">
+
+<button>Ver Paleoficha</button>
+
+</a>
+
+</div>
+
+
+<footer>
+
+© 2026 PalEntropía
+
+<br><br>
+
+Repositorio Oficial de Paleofichas
+
+</footer>
+
 </body>
+
 </html>
